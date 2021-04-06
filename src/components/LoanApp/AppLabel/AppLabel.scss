@@ -1,0 +1,26 @@
+.app-label {
+  display: flex;
+  padding: 3.7% 0 0 8.8%;
+  &--calc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 54px;
+    width: 54px;
+    background-color: #3bae57;
+    border-radius: 10px;
+    img {
+      height: 30px;
+      width: 30px;
+    }
+  }
+  &--name {
+    display: flex;
+    align-items: center;
+    padding-left: 2.9%;
+    font-size: 28px;
+    letter-spacing: 2.2px;
+    position: relative;
+    top: 2px;
+  }
+}

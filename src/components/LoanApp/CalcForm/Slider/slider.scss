@@ -1,0 +1,62 @@
+.slider {
+  width: 70%;
+  &--style {
+    position: relative;
+    width: 100%;
+    height: 80px;
+  }
+  &--rail-style {
+    position: absolute;
+    width: 100%;
+    height: 10px;
+    margin-top: 35px;
+    background-color: #bfbfbf;
+  }
+  &--handle {
+    position: absolute;
+    margin-left: -15px;
+    margin-top: 25px;
+    z-index: 2;
+    width: 30px;
+    height: 30px;
+    border: 0;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: #aaaaaa;
+    color: #333;
+  }
+  &--value {
+    font-family: Roboto, serif;
+    font-size: 18px;
+    margin-top: 60px;
+  }
+  &--tick {
+    position: absolute;
+    margin-top: 52px;
+    margin-left: -0.5;
+    width: 1px;
+    height: 8px;
+    background-color: silver;
+  }
+  &--tick-value {
+    position: absolute;
+    margin-top: 60px;
+    font-size: 14px;
+    text-align: center;
+  }
+  &--track {
+    position: absolute;
+    height: 10px;
+    z-index: 1;
+    margin-top: 35px;
+    background-color: #3bae57;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+}
+@media (max-width: 1412px) {
+  .slider {
+    width: 100%;
+  }
+}

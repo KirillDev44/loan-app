@@ -1,0 +1,38 @@
+.loan-app {
+  display: flex;
+  justify-content: center;
+  margin: 5% 10.5% 6% 10.5%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  &--settings {
+    flex-wrap: wrap;
+    width: 64%;
+  }
+  &--results {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 36%;
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+}
+@media (max-width: 1412px) {
+  .loan-app {
+    align-items: center;
+    flex-direction: column;
+    &--settings {
+      width: 100%;
+    }
+    &--results {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.05);
+    }
+  }
+}
+@media (max-width: 768px) {
+  .loan-app {
+    margin: 2% 3% 6% 3%;
+  }
+}

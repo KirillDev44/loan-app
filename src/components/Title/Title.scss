@@ -1,0 +1,24 @@
+.title {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  padding-top: 5.8%;
+  .title--name {
+    display: flex;
+    justify-content: center;
+    margin: 0 10% 0 10%;
+    font-size: 48px;
+    font-weight: bold;
+    letter-spacing: 2.8px;
+  }
+  .title--text {
+    display: flex;
+    justify-content: center;
+    padding-top: 1.6%;
+    text-align: center;
+    margin: 0 22% 0 22%;
+    font-size: 18px;
+    line-height: 30px;
+  }
+}
